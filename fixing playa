@@ -1,7 +1,9 @@
-Go on your Player and add the XROrigin script or the XRRig script in the missing script
-Go inside and click on GorillaPlayer, in the missing script add the LocomotionSystem script and select the Player with the XROrigin or XRRig script
-On the turning script under the LocomotionSystem add the LocomotionSystem Object
-Go inside GorillaPlayer and TurnParent or smth and on Main Camera in the missing script add the top Tracked Pose Driver
-Go on Left and Right Hand Controller and add the XRController script and on the Left Hand Controller make sure you change a option from Right to Left
+1. Go on your Player and add the XROrigin script or the XRRig script in the missing script
 
-https://camo.githubusercontent.com/e7b39b16d4384abaae431eaf20b439f7788a22c41d069de40d04dd063b928de8/68747470733a2f2f692e696d6775722e636f6d2f366d454942786d2e706e67
+2. Go inside and click on GorillaPlayer, in the missing script add the LocomotionSystem script and select the Player with the XROrigin or XRRig script
+
+3. On the turning script under the LocomotionSystem add the LocomotionSystem Object
+
+4. Go inside GorillaPlayer and TurnParent and on Main Camera in the missing script add the top Tracked Pose Driver
+
+5. Go on Left and Right Hand Controller and add the XRController script and on the Left Hand Controller make sure you change a option from Right to Left
