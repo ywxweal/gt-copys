@@ -1,104 +1,61 @@
-------------------------------------------------------------------------------------------------------------------------------------------
-                                                   No Unity Method / Apk Method
-------------------------------------------------------------------------------------------------------------------------------------------
-
-
-1st. Download https://github.com/SeriousCache/UABE/releases/tag/2.2stabled And Download AssetBundleExtractor 64 BIT Then Open
-
-2nd. Go Into Apk Easy Tool (https://apk-easy-tool.en.lo4d.com/download) And Select The Folder You Want To Decompile Your Apk To Then Press Decompile 
-
-3rd. Open AssetBundleExtractor.exe
-
-4th. Find data.unity3d Inside Decompiled Apk Then Make Another Folder In Your Downloads And Paste It There
-
-5th. Click File After You Open AssetBundleExtractor Then Click Open And Then Select The data.unity3d You Stored In Another Folder Then Open
-
-6th. It Will Say This Bundle File Is Compressed! Do You Want to Unpack It? Click Yes, Even If It Doesnt Say This Your Fine
-
-7th. Once The File Explorer Opens Press GlobalGameManagers
-
-8th. After Step 7 Click Info Then Scroll Down Until You See "U2019.2.0f1" Then Select It And Press Ok
-
-9th. After Step 8 Click On "View" Then "Search By Name" Then Type MonoBehaviour PlayFabSharedSettings And Press Enter
-
-10th. Click On The Export Raw After Selecting "MonoBehaviour PlayFabSharedSettings" And Then Click Save
-
-11th. Download NEO Hex Editor https://freehexeditorneo.com
-
-12th. Open The .dat In The Hex Editor That You Will Get From Exporting "MonoBehaviour PlayFabSharedSettings"
-
-13th. Replace The Playfab ID in the .dat To Your Playfab ID then press ctrl s
-
-14th. Click On "Import Raw" Then Select The .dat You Just Edited With The Hex Editor
-
-15th. After That You Will Do The Same Thing With "MonoBehaviour PhotonServerSettings".
-
-16th. Click On "View" Then "Search By Name" Then Type "MonoBehaviour PhotonServerSettings" And Press Enter
-
-17th. Click On "Export Raw" After Selecting "MonoBehaviour PhotonServerSettings" Then Save The File And Put It In A Empty Folder
-
-18th. Open The .dat That You Just Exported From "MonoBehaviour PhotonServerSettings"
-
-19th. Replace 75dc33b5-d5fc-4b4c-bf88-eb70baabe183 (realtime) And c5fddf06-024c-41f9-81ec-9411dc9c1b27 (voice) With Yours Then Press CTRL S 
-
-20th. Go Back To AssetBundleExtractor, Click "Import Raw" Then Select The .dat You Just Saved
-
-21nd. Go To View And Search By Name Then Type "OculusPlatformSettings" Then Export Raw And Edit It With Your AppLab ID Then Press CTRL S Then Go To AssetBundleExtracter Import Raw When Your Done
-
-22rd. After Step 21 Go To The Bottom Of The App To Where It Says "Ok" Then Press The Button
-
-23th. After Step 22 Press File> Save Then Make Another Folder And Then Name The File Your Going To Save "data.unity3d" Then Press Save
-
-24th. Find ApkTool.yml And AndroidManifest.xml Then Copy And Paste Into A Seperate Folder
-
-25th. Edit ApkTool.yml And Change Version Code to 1, Everytime You Make A New Apk Raise That Number By 1
-
-26th. Edit The AndroidManifest.xml And Change "com.AnotherAxiom.GorillaTag" To What You Want Your Package Name To Be
-
-27th. Copy The 2 Files You Just Now Edited Then Paste Them Into Where You Got Them From, It'll Say "Would You Like To Replace All Existing Files?" Click Yes
-
-28th. After Step 27 Go To Where You Got Your data.unity3d From Then Just Copy The One You Edited Then Just Paste It There, Basically Replacing It.
-
-29th. Open Apk Easy Tool Then Click Your Decompiled Apk Then Make A .keystore And Set It Up Then Compile.
-
-30th. After That Open Meta Quest Developer Hub And Upload Your Apk To Your Priv Applab / Public Applab. https://developer.oculus.com/downloads/package/oculus-developer-hub-win/
-
-------------------------------------------------------------------------------------------------------------------------------------------
-                                                            Important Info
-------------------------------------------------------------------------------------------------------------------------------------------
-
-
-If You Did This And Your Game Doesnt Work Then You Shouldnt Deserve To Own This Method
-
-Once You Upload Your Game To You Applab You Have To Keep The Same Package Name And Use The Same Keystore Other Wise If You Lose Your Keystore Then You'll Have To Remake A Applab App
-
-To Enable Mirror In Stump Edit The data.unity3d That You Had Copied And Put In A Different Folder Then Where It Says "gorillagamemanagers" Click It Then Select "Level 0", After Thats Selected Press Info Then Open With "U2019.2.0f1" Then Press View> Search By Name Then Search "GameObject Mirror (1)" Then Export Raw, Open It And Where It Says "is active: false"
-
-Change False To True Then Save It And Import It Back Then Save The data.unity3d Like Usual.
-
-If Your Game Crashes Make Sure You Did Everything Right And That Your Applab ID Is The One You Got From The Search Bar After Clicking It, Make Sure Its The Same ID, Its Just Typed Twice.
-
-If It Says Please Update Or What Ever You Need A Revision For MOTD, Also You WIll Need A Server Sided Cloudscript If You Want Other Players To See Each Others Cosmetics.
-
-If You Cant Change Names Or Join Codes Go To Playfab And Go To Automation> Cloud Script> Functions Then Register A Function, Select HTTPS And Make Function Name "CheckForBadName". After You Do That Paste The Following Link In Function URL.  
-https://covidtagapi.pythonanywhere.com/api/send
-
-If You Upload Your Game To Applab And It Says Your Android Manifest Has No Intent Filter Replace It With This Then Change The Package Name To Yours
-https://text.is/7PRV
-
-If It Says No Wifi Or Lan Detected Put This In The 5th line In Your Android Manifest
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
-------------------------------------------------------------------------------------------------------------------------------------------
-                                                   How To Get Server Sided Cosmetics
-------------------------------------------------------------------------------------------------------------------------------------------
-
-To Get Server Sided Cosmetics You Will Need A Cloudscript, After You Have A Cloudscript Make Rules And Then Make A Webhook For Photon And Make Sure Stuff Like RoomJoins For Rules And Photon Are The Same, You Will Have To Figure Out How To Do The Rest Its Very Simple Just Use Your Head.
-
-------------------------------------------------------------------------------------------------------------------------------------------
-                                                              Credits
-------------------------------------------------------------------------------------------------------------------------------------------
-
-Discord: unityexplorer - Discord ID: 1098480846610124820 - https://feds.lol/unityexplorer
-
-Creators: Polar, Dre1mer, Crypticbren
+CantHearYou
+ChangeColour
+ClickRpc
+DestroyRpc
+HeresWhy
+ChangeColor
+ChangeName
+ChangeSecondaryColor
+DestroySpaceship
+Disable
+Enable
+Fire
+RespawnSpaceship
+SyncColorInt
+SyncInitialColorInt
+TempDisable
+TempEnable
+UmbrellaAnimate
+PlaySound
+enableKelat
+EnableKelat
+SyncEnableState
+RPCRefreshPlayerValues
+KickPlayer
+PlayHitSound
+SpawnParticles
+ToggleDoor
+SendHappyRPC
+SendSadRPC
+SendShockedRPC
+SendAllRPCForElectric
+TagPlayer
+GameRestart
+SetTaggerStartOfRound
+SyncRoundRestart
+SyncTaggedStatus
+ThunderSFX
+PlayParticle
+TaggedRPC
+TagSoundRPC
+TagThisPlayer
+UnTaggedRPC
+RPC_PlayHitSound
+RPC_PlayRandomSound
+sound
+Sound
+BuildBlock
+DestroyBlock
+DestroyBlockRPC
+SpawnBlockRPC
+rpc
+SyncDoorState
+SyncDoorStateClosed
+SyncDoorStateOpen
+ToggleState
+PlayHitSoundRPC
+SpawnDeadGuy
+changevalueofbool
+PlasticBlockRPC
+Setup
+RPC_SetEmotion 
