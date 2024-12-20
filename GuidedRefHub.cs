@@ -494,11 +494,6 @@ namespace GorillaTag.GuidedRefs
 			return "FieldNameOnlyAvailableInEditor";
 		}
 
-		Transform IGuidedRefMonoBehaviour.get_transform()
-		{
-			return base.transform;
-		}
-
 		int IGuidedRefObject.GetInstanceID()
 		{
 			return GetInstanceID();
