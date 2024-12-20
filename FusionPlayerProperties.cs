@@ -23,7 +23,7 @@ public class FusionPlayerProperties : NetworkBehaviour
 		[Networked]
 		public unsafe NetworkString<_16> NickName
 		{
-			readonly get
+			get
 			{
 				return *(NetworkString<_16>*)Native.ReferenceToPointer(ref _NickName);
 			}
