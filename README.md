@@ -1,6 +1,6 @@
 just methods and stuff for gtag copies
 
-.gg/WNYHg33a
+this will never be updated again.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
                                                    fixes
